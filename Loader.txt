@@ -1,16 +1,6 @@
 gg.setRanges(bit32.bxor(gg.REGION_ANONYMOUS,gg.REGION_C_ALLOC,gg.REGION_JAVA_HEAP,gg.REGION_C_HEAP,gg.REGION_C_DATA,gg.REGION_C_BSS,gg.REGION_BAD,gg.REGION_PPSSPP))
 gg.skipRestoreState()
 
-if gg.VERSION < '8.69.5' then
-print("|￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|")
-print("|У вас не установлен клиент PhoenixHack|")
-print("|＿＿＿＿＿＿＿＿＿＿＿ ＿＿＿＿＿＿＿＿|")
-print("            /)__/) ||                    ")
-print("           (•ㅅ•)   ||                    ")
-print("           /       -づ                     ")
-print("Для запуска чита установите Клиент PhoenixHack!")
-os.exit()
-end
 
 function bps()
 gg.toast("Загрузка Bypass.. ")
