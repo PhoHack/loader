@@ -42,13 +42,15 @@ local login={'Владимир Воробьёв', 'Никита Андреев',
 local login_vip={
 	'Phoenix',
 	'Asher TV',
-    'ZigZag' 
+    'ZigZag',
+    'MayloHack'
 	}
 	
 local cd_pass_vip={
 	'Fh2712', 
 	'Fh3623',
-	'Fh4739'
+	'Fh4739',
+	'Fh5381'
 	
 	}
 	
